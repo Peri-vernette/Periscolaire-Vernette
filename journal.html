@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal du périscolaire | La Vernette</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #fdfbf7; font-family: sans-serif; margin: 0; padding: 0;">
+
+    <!-- Barre de navigation -->
+    <header style="background-color: #b85d33; padding: 15px 0; text-align: center;">
+        <nav style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <a href="index.html" style="color: white; text-decoration: none; font-weight: bold;">Accueil</a>
+            <a href="journal.html" style="color: white; text-decoration: underline; font-weight: bold;">Journal du périscolaire</a>
+            <a href="photos.html" style="color: white; text-decoration: none; font-weight: bold;">Photos</a>
+            <a href="temps-forts.html" style="color: white; text-decoration: none; font-weight: bold;">Temps Forts</a>
+            <a href="programme.html" style="color: white; text-decoration: none; font-weight: bold;">Programme des activités</a>
+        </nav>
+    </header>
+
+    <!-- Contenu principal -->
+    <main style="max-width: 800px; margin: 30px auto; padding: 0 20px;">
+        
+        <!-- En-tête de section -->
+        <div style="background-color: #ffffff; border: 2px solid #e6d5c3; padding: 30px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+            <h1 style="color: #2c5e3b; margin-top: 0; font-size: 2rem;">Les actualités des enfants</h1>
+            <p style="color: #4a4a4a; font-size: 1rem; line-height: 1.5; margin-bottom: 0;">
+                Retrouvez ici les articles, les poèmes écrits par les enfants ainsi que leurs fameux podcasts audio.
+            </p>
+        </div>
+
+        <!-- Bloc Podcast -->
+        <div class="podcast-card" style="background-color: #fdfbf7; border: 2px solid #e6d5c3; padding: 25px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+            <h3 style="color: #b85d33; margin-top: 0; display: flex; align-items: center; gap: 10px;">
+                🎙️ Écoutez notre dernier podcast !
+            </h3>
+            <p style="color: #4a4a4a; font-size: 0.95rem; margin-bottom: 15px;">
+                Les enfants racontent leur semaine idéale à La Vernette :
+            </p>
+            
+            <!-- Lecteur audio natif -->
+            <audio controls style="width: 100%; border-radius: 30px;">
+                <source src="episode-1.mp3" type="audio/mp3">
+                Votre navigateur ne supporte pas l'élément audio.
+            </audio>
+        </div>
+
+        <!-- Article : Premier article de la rentrée -->
+        <div class="article-card" style="background-color: #fdfbf7; border: 2px solid #e6d5c3; padding: 30px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+            <span style="background-color: #b85d33; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold;">Rentrée 2026</span>
+            <h2 style="color: #2c5e3b; margin-top: 15px; margin-bottom: 10px; font-size: 1.5rem;">La rentrée à la périscolaire : une première semaine bien remplie !</h2>
+            <p style="color: #777; font-size: 0.9rem; margin-bottom: 20px;">📅 Du 1er au 4 septembre</p>
+            
+            <div style="color: #4a4a4a; line-height: 1.6; font-size: 1rem;">
+                <p>Du 1er au 4 septembre, nous avons découvert ou retrouvé la périscolaire. Et le moins que l’on puisse dire, c’est qu’on ne s’est pas ennuyés !</p>
+                
+                <p>Cette semaine, nous avons joué à plein de jeux : <strong>Uno, bataille, échecs</strong>, mais aussi à un <strong>parcours de Koh-Lanta</strong> sur la structure de l’école. Il y avait beaucoup de jeux de société que certains d’entre nous ne connaissaient pas encore. C’était chouette de pouvoir en découvrir de nouveaux !</p>
+                
+                <p>Au début, certains pensaient qu’ils n’allaient pas aimer la périscolaire… mais finalement, ils ont changé d’avis ! <em style="color: #b85d33; font-weight: bold;">« On aime bien la péri ! »</em></p>
+                
+                <p>Nous avons aussi trouvé que les animateurs étaient gentils. Ils nous donnent des conseils et nous donnent envie de les écouter.</p>
+                
+                <p>Et puis, il y a un autre avantage à venir à la périscolaire quand il fait très chaud : <strong>il y a la clim !</strong> Dehors, il fait trop chaud, alors on est bien au frais à la péri.</p>
+                
+                <p>Ce que nous avons surtout aimé, c’est de <strong>retrouver nos copains et les animateurs</strong> après les vacances. Ça fait plaisir de se retrouver et de partager de bons moments ensemble.</p>
+                
+                <p style="background-color: #f4ece1; padding: 15px; border-left: 4px solid #b85d33; border-radius: 4px; margin-top: 20px;">
+                    <strong>Le mot de la fin :</strong> Pour cette première semaine, notre avis est donc plutôt positif : <em>à la périscolaire, il y a beaucoup de choses à faire et on passe de bons moments !</em>
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer style="text-align: center; padding: 20px; color: #777; font-size: 0.9rem; border-top: 1px solid #e6d5c3; margin-top: 40px;">
+        <p>École de La Vernette - Sanary-sur-Mer | Espace Périscolaire</p>
+    </footer>
+
+</body>
+</html>
